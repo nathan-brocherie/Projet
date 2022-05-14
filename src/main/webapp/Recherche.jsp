@@ -8,25 +8,29 @@
 
 <center>
 
-<h2>Fais ton choix</h2>
+    <h2>Fais ton choix</h2>
 
-<table border="2">
-    <thead>Liste de recherche</thead>
-    <tbody>
-    <tr>
-        <td>Commerçant</td>
-        <td>Localisation</td>
-        <td>Catégorie</td>
-        <td>Produit</td>
-    </tr>
-    <tr>
-        <td>...</td>
-        <td>...</td>
-        <td>...</td>
-        <td>...</td>
-    </tr>
-    </tbody>
-</table>
+    <div>
+        <table border="2">
+            <thead>Liste de recherche</thead>
+            <tbody>
+            <tr>
+                <td>Commerçant</td>
+                <td>Localisation</td>
+                <td>Catégorie</td>
+                <td>Produit</td>
+                <td>Réservé</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 
 </center>
 

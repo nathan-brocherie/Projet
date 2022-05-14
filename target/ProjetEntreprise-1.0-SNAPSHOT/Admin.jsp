@@ -9,8 +9,7 @@
 <center>
 
     <div>
-        <a href="CoursServlet?action=new">Ajouter un Panier</a> <a
-            href="CoursServlet?action=list">Lister les paniers</a>
+        <a href="CoursServlet?action=list">Lister les paniers</a>
     </div>
 
     <c:if test="${not empty model}">
@@ -19,21 +18,22 @@
         <form action="CoursServlet" method="post">
             <input type="hidden" name="id">
             <div>
-                Produit : <input type="text" name="intitule"
-                                  value="${model.cours.intitule}" />
+                Produit : <input type="text" name="produit"
+                                 value="${model.cours.intitule}"/>
             </div>
             <div>
-                Commerçant : <input type="text" name="coef" value="${model.cours.coef}" />
+                Commerçant : <input type="text" name="commercant" value="${model.cours.coef}"/>
             </div>
             <div>
-                Localisation : <input type="text" name="duree"
-                               value="${model.cours.duree}" />
+                Localisation : <input type="text" name="localisation"
+                                      value="${model.cours.duree}"/>
             </div>
             <div>
-                Catégorie : <input type="text" name="categorie" />
+                Catégorie : <input type="text" name="categorie"/>
             </div>
+            </br>
             <div>
-                <input type="submit" value="Modifier" name="action" />
+                <input type="submit" value="Modifier" name="action"/>
             </div>
         </form>
 
@@ -45,19 +45,20 @@
         <form action="CoursServlet" method="post">
             <input type="hidden" name="id">
             <div>
-                Panier : <input type="text" name="intitule" />
+                Panier : <input type="text" name="panier"/>
             </div>
             <div>
-                Commerçant : <input type="text" name="coef" />
+                Commerçant : <input type="text" name="commercant"/>
             </div>
             <div>
-                Localisation : <input type="text" name="duree" />
+                Localisation : <input type="text" name="localisation"/>
             </div>
             <div>
-                Catégorie : <input type="text" name="categorie" />
+                Catégorie : <input type="text" name="categorie"/>
             </div>
+            </br>
             <div>
-                <input type="submit" value="Ajouter" name="action" />
+                <input type="submit" value="Ajouter" name="action"/>
             </div>
         </form>
 

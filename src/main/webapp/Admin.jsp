@@ -31,6 +31,7 @@
             <div>
                 Catégorie : <input type="text" name="categorie"/>
             </div>
+            </br>
             <div>
                 <input type="submit" value="Modifier" name="action"/>
             </div>
@@ -55,6 +56,7 @@
             <div>
                 Catégorie : <input type="text" name="categorie"/>
             </div>
+            </br>
             <div>
                 <input type="submit" value="Ajouter" name="action"/>
             </div>
