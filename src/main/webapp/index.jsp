@@ -2,12 +2,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <link rel="stylesheet" type="text/css" href="font.css"/>
+    <title>Accueil</title>
 </head>
-<body>
-<h1><%= "Hello World!" %>
+<body background="image.jpg">
+<center>
+<h1><%= "Anti-Gaspi" %>
 </h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<div><a href="Recherche.jsp">Place au choix</a></div>
+
+    <div><a href="Admin.jsp">Accès admin mettre condition</a></div>
+</center>
 </body>
 </html>
