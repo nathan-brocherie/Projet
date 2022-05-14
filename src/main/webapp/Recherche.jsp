@@ -11,7 +11,7 @@
     <div>
         <h2>Fais ton choix</h2>
 
-        <form method="post" action="intermediaire.jsp">
+        <form method="post" action="Recherche.jsp">
             Localisation:
             <select name="localisation">
                 <option>Grandmont</option>
@@ -45,12 +45,16 @@
                 <td>Réservé</td>
             </tr>
             <tr>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
+                <c:forEach var="panier" items="${model.list}">
+            <tr>
+                <td><c:out value="${panier.commercant}"></c:out></td>
+                <td><c:out value="${panier.localisation}"></c:out></td>
+                <td><c:out value="${panier.categorie}"></c:out></td>
+                <td><c:out value="${panier.produit}"></c:out></td>
                 <td><input type="checkbox"></td>
             </tr>
+            </c:forEach>
+
             </tbody>
         </table>
     </div>

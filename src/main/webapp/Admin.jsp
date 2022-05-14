@@ -15,13 +15,13 @@
     <div>
 
         <c:if test="${not empty model}">
-            <h2>Gestion des commercant</h2>
+            <h2>Gestion des commercants</h2>
 
-            <form action="CoursServlet" method="post">
+            <form action="CommercantServlet" method="post">
                 <input type="hidden" name="id">
 
                 <div>
-                    Commerçant : <input type="text" name="commercant" <%--value="${model.cours.coef}--%>"/>
+                    Commerçant : <input type="text" name="commercant" <%--value="${model.commercant}--%>"/>
                 </div>
 
                 </br>
@@ -37,7 +37,7 @@
         <c:if test="${empty model}">
             <h2>Ajouter un panier</h2>
 
-            <form action="CoursServlet" method="post">
+            <form action="PanierServlet" method="post">
                 <input type="hidden" name="id">
                 <div>
                     Panier : <input type="text" name="panier"/>
