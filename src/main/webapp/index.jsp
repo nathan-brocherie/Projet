@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="font.css"/>
     <title>Accueil</title>
 </head>
-<body background="image.jpg">
+<body>
 <center>
 <h1><%= "Anti-Gaspi" %>
 </h1>

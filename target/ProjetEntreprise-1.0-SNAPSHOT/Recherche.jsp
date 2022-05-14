@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="font.css"/>
@@ -21,10 +21,10 @@
         <td>Produit</td>
     </tr>
     <tr>
-        <td>Commerçant</td>
-        <td>Localisation</td>
-        <td>Catégorie</td>
-        <td>Produit</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
     </tr>
     </tbody>
 </table>
