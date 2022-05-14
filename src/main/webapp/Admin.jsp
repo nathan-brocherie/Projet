@@ -29,6 +29,9 @@
                                value="${model.cours.duree}" />
             </div>
             <div>
+                Catégorie : <input type="text" name="categorie" />
+            </div>
+            <div>
                 <input type="submit" value="Modifier" name="action" />
             </div>
         </form>
@@ -48,6 +51,9 @@
             </div>
             <div>
                 Localisation : <input type="text" name="duree" />
+            </div>
+            <div>
+                Catégorie : <input type="text" name="categorie" />
             </div>
             <div>
                 <input type="submit" value="Ajouter" name="action" />
