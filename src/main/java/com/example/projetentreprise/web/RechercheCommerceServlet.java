@@ -1,4 +1,4 @@
-package com.example.projetentreprise;
+package com.example.projetentreprise.web;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

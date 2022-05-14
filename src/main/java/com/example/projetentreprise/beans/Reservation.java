@@ -1,24 +1,24 @@
 package com.example.projetentreprise.beans;
 
-public class Panier {
+public class Reservation {
 
-    private String utilisateur;
+    private String num;
 
     private String[] produit, commercant, localisation, catégorie;
 
-    public Panier(){
+    public Reservation(){
         produit = new String[10];
         commercant = new String[10];
         localisation = new String[10];
         catégorie = new String[10];
     }
 
-    public String getUtilisateur() {
-        return utilisateur;
+    public String getNum() {
+        return num;
     }
 
-    public void setUtilisateur(String utilisateur) {
-        this.utilisateur = utilisateur;
+    public void setNum(String num) {
+        this.num = num;
     }
 
     public String[] getProduit() {

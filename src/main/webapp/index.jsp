@@ -18,7 +18,7 @@
 
     <div><h3><a href="Recherche.jsp">Place au choix</a></h3></div>
 
-    <div><h3><a href="Admin.jsp">Accès admin mettre condition</a></h3></div>
+    <div><h3><a href="Login.jsp"> Option - Connexion par num (retrouve panier réservé) | admin mp go pageadmin </a></h3></div>
 </center>
 </body>
 </html>

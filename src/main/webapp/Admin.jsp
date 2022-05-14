@@ -15,28 +15,13 @@
     <div>
 
         <c:if test="${not empty model}">
-            <h2>Editer un panier</h2>
+            <h2>Gestion des commercant</h2>
 
             <form action="CoursServlet" method="post">
                 <input type="hidden" name="id">
 
                 <div>
-                    Produit : <input type="text" name="produit"
-                                     value="${model.cours.intitule}"/>
-                </div>
-
-                <div>
-                    Commerçant : <input type="text" name="commercant" value="${model.cours.coef}"/>
-                </div>
-
-                <div>
-                    Localisation : <input type="text" name="localisation"
-                                          value="${model.cours.duree}"/>
-                </div>
-
-                <div>
-                    Catégorie : <input type="text" name="categorie"/>
-
+                    Commerçant : <input type="text" name="commercant" <%--value="${model.cours.coef}--%>"/>
                 </div>
 
                 </br>
