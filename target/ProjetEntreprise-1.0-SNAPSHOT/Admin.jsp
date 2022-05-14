@@ -3,7 +3,7 @@
 <head>
     <title>Admin</title>
 </head>
-<body background="black">
+<body>
 
 <center>
 
