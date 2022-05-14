@@ -7,12 +7,18 @@
 </head>
 <body>
 <center>
-<h1><%= "Anti-Gaspi" %>
-</h1>
-<br/>
-<div><a href="Recherche.jsp">Place au choix</a></div>
+    <div>
+        <h1><%= "Anti-Gaspi" %>
+        </h1>
+    </div>
 
-    <div><a href="Admin.jsp">Accès admin mettre condition</a></div>
+    <br/>
+
+    <div><h3><a href="RechercheCommerce.jsp">Recherche des commerçants</a></h3></div>
+
+    <div><h3><a href="Recherche.jsp">Place au choix</a></h3></div>
+
+    <div><h3><a href="Admin.jsp">Accès admin mettre condition</a></h3></div>
 </center>
 </body>
 </html>

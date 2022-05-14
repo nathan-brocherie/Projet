@@ -8,7 +8,30 @@
 
 <center>
 
-    <h2>Fais ton choix</h2>
+    <div>
+        <h2>Fais ton choix</h2>
+
+        <form method="post" action="intermediaire.jsp">
+            Localisation:
+            <select name="localisation">
+                <option>Grandmont</option>
+                <option>Tanneur</option>
+            </select>
+            Catégorie :
+            <select name="Categorie">
+                <option>Fruits et Légumes</option>
+                <option>Repas</option>
+            </select>
+            Commerçant :
+            <select name="commercant">
+                <option>RU</option>
+                <option>Supermarché</option>
+                <option>Grossiste</option>
+            </select>
+        </form>
+    </div>
+
+    </br>
 
     <div>
         <table border="2">

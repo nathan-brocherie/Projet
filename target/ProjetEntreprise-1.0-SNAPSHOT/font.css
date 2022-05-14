@@ -1,3 +1,15 @@
-body {
-    background-color: aquamarine;
+html {
+    background-image: url("image.jpg");
+    size: auto;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: beige;
+    border-radius: 13px;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 3px;
 }

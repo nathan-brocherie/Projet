@@ -1,15 +1,15 @@
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="font.css"/>
-    <title>Recherche</title>
+    <title>Liste Commerçants</title>
 </head>
 <body>
 
 <center>
 
     <div>
-        <h2>Fais ton choix</h2>
+        <h2>Nos commerçants</h2>
 
         <form method="post" action="intermediaire.jsp">
             Localisation:

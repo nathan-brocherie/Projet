@@ -9,61 +9,72 @@
 <center>
 
     <div>
-        <a href="CoursServlet?action=list">Lister les paniers</a>
+        <h4><a href="Recherche.jsp?action=list">Lister les paniers</a></h4>
     </div>
 
-    <c:if test="${not empty model}">
-        <h2>Editer un panier</h2>
+    <div>
 
-        <form action="CoursServlet" method="post">
-            <input type="hidden" name="id">
-            <div>
-                Produit : <input type="text" name="produit"
-                                 value="${model.cours.intitule}"/>
-            </div>
-            <div>
-                Commerçant : <input type="text" name="commercant" value="${model.cours.coef}"/>
-            </div>
-            <div>
-                Localisation : <input type="text" name="localisation"
-                                      value="${model.cours.duree}"/>
-            </div>
-            <div>
-                Catégorie : <input type="text" name="categorie"/>
-            </div>
-            </br>
-            <div>
+        <c:if test="${not empty model}">
+            <h2>Editer un panier</h2>
+
+            <form action="CoursServlet" method="post">
+                <input type="hidden" name="id">
+
+                <div>
+                    Produit : <input type="text" name="produit"
+                                     value="${model.cours.intitule}"/>
+                </div>
+
+                <div>
+                    Commerçant : <input type="text" name="commercant" value="${model.cours.coef}"/>
+                </div>
+
+                <div>
+                    Localisation : <input type="text" name="localisation"
+                                          value="${model.cours.duree}"/>
+                </div>
+
+                <div>
+                    Catégorie : <input type="text" name="categorie"/>
+
+                </div>
+
+                </br>
+
                 <input type="submit" value="Modifier" name="action"/>
-            </div>
-        </form>
 
-    </c:if>
+            </form>
 
-    <c:if test="${empty model}">
-        <h2>Ajouter un panier</h2>
+        </c:if>
+    </div>
 
-        <form action="CoursServlet" method="post">
-            <input type="hidden" name="id">
-            <div>
-                Panier : <input type="text" name="panier"/>
-            </div>
-            <div>
-                Commerçant : <input type="text" name="commercant"/>
-            </div>
-            <div>
-                Localisation : <input type="text" name="localisation"/>
-            </div>
-            <div>
-                Catégorie : <input type="text" name="categorie"/>
-            </div>
-            </br>
-            <div>
-                <input type="submit" value="Ajouter" name="action"/>
-            </div>
-        </form>
+    <div>
+        <c:if test="${empty model}">
+            <h2>Ajouter un panier</h2>
 
-    </c:if>
+            <form action="CoursServlet" method="post">
+                <input type="hidden" name="id">
+                <div>
+                    Panier : <input type="text" name="panier"/>
+                </div>
+                <div>
+                    Commerçant : <input type="text" name="commercant"/>
+                </div>
+                <div>
+                    Localisation : <input type="text" name="localisation"/>
+                </div>
+                <div>
+                    Catégorie : <input type="text" name="categorie"/>
+                </div>
+                </br>
+                <div>
+                    <input type="submit" value="Ajouter" name="action"/>
+                </div>
+            </form>
 
+        </c:if>
+
+    </div>
 </center>
 
 </body>
