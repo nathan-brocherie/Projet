@@ -45,7 +45,7 @@
                 <td>Réservé</td>
             </tr>
             <tr>
-                <c:forEach var="panier" items="${model.list}">
+               <%-- <c:forEach var="panier" items="${model.panier}"> --%>
             <tr>
                 <td><c:out value="${panier.commercant}"></c:out></td>
                 <td><c:out value="${panier.localisation}"></c:out></td>

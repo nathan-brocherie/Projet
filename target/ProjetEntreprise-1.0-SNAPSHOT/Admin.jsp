@@ -9,7 +9,7 @@
 <center>
 
     <div>
-        <h4><a href="Recherche.jsp?action=list">Lister les paniers</a></h4>
+        <h4><a href="Recherche.jsp<%--?action=list--%>">Lister les paniers</a></h4>
     </div>
 
     <div>
@@ -21,7 +21,7 @@
                 <input type="hidden" name="id">
 
                 <div>
-                    Commerçant : <input type="text" name="commercant" <%--value="${model.cours.coef}--%>"/>
+                    Commerçant : <input type="text" name="commercant" <%--value="${model.commercant}--%>"/>
                 </div>
 
                 </br>

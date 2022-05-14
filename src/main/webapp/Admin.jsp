@@ -9,7 +9,7 @@
 <center>
 
     <div>
-        <h4><a href="Recherche.jsp?action=list">Lister les paniers</a></h4>
+        <h4><a href="Recherche.jsp<%--?action=list--%>">Lister les paniers</a></h4>
     </div>
 
     <div>
