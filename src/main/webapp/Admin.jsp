@@ -8,12 +8,12 @@
 <center>
 
     <div>
-        <a href="CoursServlet?action=new">Ajouter un cours</a> <a
-            href="CoursServlet?action=list">Lister les cours</a>
+        <a href="CoursServlet?action=new">Ajouter un Panier</a> <a
+            href="CoursServlet?action=list">Lister les paniers</a>
     </div>
 
     <c:if test="${not empty model}">
-        <h2>Editer un produit</h2>
+        <h2>Editer un panier</h2>
 
         <form action="CoursServlet" method="post">
             <input type="hidden" name="id">
@@ -22,10 +22,10 @@
                                   value="${model.cours.intitule}" />
             </div>
             <div>
-                Coef : <input type="text" name="coef" value="${model.cours.coef}" />
+                Commerçant : <input type="text" name="coef" value="${model.cours.coef}" />
             </div>
             <div>
-                Durée : <input type="text" name="duree"
+                Localisation : <input type="text" name="duree"
                                value="${model.cours.duree}" />
             </div>
             <div>
@@ -36,18 +36,18 @@
     </c:if>
 
     <c:if test="${empty model}">
-        <h2>Ajouter un cours</h2>
+        <h2>Ajouter un panier</h2>
 
         <form action="CoursServlet" method="post">
             <input type="hidden" name="id">
             <div>
-                Intitulé : <input type="text" name="intitule" />
+                Panier : <input type="text" name="intitule" />
             </div>
             <div>
-                Coef : <input type="text" name="coef" />
+                Commerçant : <input type="text" name="coef" />
             </div>
             <div>
-                Durée : <input type="text" name="duree" />
+                Localisation : <input type="text" name="duree" />
             </div>
             <div>
                 <input type="submit" value="Ajouter" name="action" />
